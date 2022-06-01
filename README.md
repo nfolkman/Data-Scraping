@@ -3,7 +3,7 @@
 This project functions as the first delving into data scraping and display, which will play a large role in my Climate Hub App.
 
 
-<img src="C:\Users\folkm\OneDrive\Pictures\Снимки экрана\Screenshot (189).png">
+
 
 
 <h3> <strong>How It's Made</strong></h3>
