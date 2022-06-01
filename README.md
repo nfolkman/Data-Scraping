@@ -2,6 +2,9 @@
 
 This project functions as the first delving into data scraping and display, which will play a large role in my Climate Hub App.
 
+(Data Source: https://www.jamesqquick.com/talks)
+
+![Screenshot (189)](https://user-images.githubusercontent.com/98185555/171341895-65202837-9d32-4f74-9096-4d763b7bf141.png)
 
 
 
