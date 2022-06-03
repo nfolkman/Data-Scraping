@@ -4,9 +4,10 @@ This project functions as the first delving into data scraping and display, whic
 
 (Data Source: https://www.dailyclimate.org/originals/)
 
-![Screenshot (189)](https://user-images.githubusercontent.com/98185555/171341895-65202837-9d32-4f74-9096-4d763b7bf141.png)
 
 
+
+![Screenshot (191)](https://user-images.githubusercontent.com/98185555/171958068-f2d39b93-d612-4b25-82d7-992cc8904caf.png)
 
 
 <h3> <strong>How It's Made</strong></h3>
