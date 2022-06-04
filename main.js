@@ -1,5 +1,6 @@
-const axios = require('axios')
+ const axios = require('axios')
 const cheerio = require('cheerio')
+
 
 axios.get('https://www.dailyclimate.org/originals/')
       .then( (res) => {
@@ -11,8 +12,8 @@ axios.get('https://www.dailyclimate.org/originals/')
          // const description = $('.card .card--description').html()
          // const date = $('.card .card--date small').html()
 
-         const arr = []
-         const arr2= []
+         const titles = []
+         const descriptions= []
 
          // console.table(arr)
 
@@ -24,16 +25,16 @@ axios.get('https://www.dailyclimate.org/originals/')
 
 
          $('article .widget__headline-text').each((index,el)=> {
-            arr.push(($(el).text().trim()))
+            titles.push(($(el).text().trim()))
          })                                       // Proud of this!
 
          $('.body-description p').each((index, el) => {
-            arr2.push(($(el).text().trim()))
+            descriptions.push(($(el).text().trim()))
          })
+         
+         console.table(titles)
+         console.log(descriptions)
 
-         console.table(arr)
-         
-         console.log(arr2)
-         // console.log(description)
-         
       })
+
+
